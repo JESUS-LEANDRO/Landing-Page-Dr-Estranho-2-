@@ -1,0 +1,94 @@
+.div-secao-principal{
+    background-image: url(../assets/img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    color: white;
+}
+.img-clea{
+    width: 100%;
+    height: 600px;
+    max-width:900;
+    min-width: 540px;
+    mix-blend-mode: lighten;
+}
+.img-drestranho{
+    width: 100%;
+    max-width: 600px;
+}
+.img-wanda{
+    width: 100%;
+    height: 600px;
+    min-width: 300px;
+    mix-blend-mode: lighten; 
+}
+.div-meio{
+    height: 550px;
+    width: 100%;
+    
+}
+.div-img-drestranho , .div-img-titulo  {
+    bottom: 0px;
+}
+.img-titulo{
+    width: 100%;
+    max-width: 500px;
+    mix-blend-mode:screen;
+    bottom: 0px;
+}
+.img-circulo{
+    width: 100%;
+    max-height: 600px;
+    mix-blend-mode: screen; 
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+.section-conteudo{
+    margin-top: 10px;
+}
+.section-conteudo{
+    background-image: url(../assets/img/fundo.jpg);
+}
+
+@media (max-width: 500px) {
+    .section-conteudo{
+        margin-top: 50px;
+    }
+}
+
+.titulo-principal{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.div-info{
+    max-width: 400px;
+}
+
+.btn-cta{
+    background-color: #ffe509;
+    min-height: 45px;
+    color: #121418;
+    border-radius: 0px 15px 15px 0px;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    min-width: 120px;
+}
+
+.input-cta, .input-cta:focus{
+    border: 2px solid #080808;
+    min-height: 45px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: transparent;
+    color: white;
+    }
+
+.input-cta:focus{
+    border-color: #ffe509;
+    box-shadow: 0 0 0 0.25rem rgba(219, 205, 55, 0.09);
+}
